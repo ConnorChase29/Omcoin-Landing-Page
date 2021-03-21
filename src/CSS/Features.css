@@ -73,6 +73,11 @@
     width: 75%;
   }
 }
+@media screen and (min-width: 1000px){
+  .Landing1 .TitleText {
+    font-size: 43px;
+  }
+}
 .center{
   margin-bottom: 0;
 }

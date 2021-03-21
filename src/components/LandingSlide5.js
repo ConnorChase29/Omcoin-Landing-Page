@@ -28,9 +28,6 @@ export class LandingSlide5 extends React.Component < {}, {} > {
           <div>
             <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4"/>
           </div>
-          <div>
-            <img className="responsiveImage" src={Roadmap5} alt="Roadmap 5"/>
-          </div>
         </div>
       </div>
 
