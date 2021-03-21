@@ -1,0 +1,101 @@
+.footer {
+    background-color:  #f5f5f7;
+    padding-top: 54px;
+    padding-bottom: 30px;
+}
+.socialContainer{
+    display: flex;
+    margin: 0;
+    max-height: 15px;
+}
+.spacing{
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+.socialSpacing{
+    margin: 0 15px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .socialSpacing{
+      margin: 0 9px;
+  }
+}
+
+.socialSpacing svg{
+    max-width: 20px;
+    max-height: 20px;
+}
+.socialSpacing svg:hover path{
+    fill: #1D1E20;
+}
+.moreSpacing{
+    margin-right: 25%;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 0 auto;
+}
+.leftSpacing{
+    margin-left: 2%;
+}
+@media screen and (max-width: 770px){
+    .leftSpacing{
+        text-align: center;
+    }
+}
+.verticalLineRight{
+    border-right: 2px solid lightgrey;
+    height: 25px;
+}
+.verticalLineLeft{
+    border-left: 2px solid lightgrey;
+    height: 25px;
+}
+.hrSpacing{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.CopyContainer{
+    display: flex;
+}
+.vertical {
+    display: unset;
+    border-left: 1px solid grey;
+    height: px;
+}
+.hrFix { margin-top: 0; margin-bottom: 15px }
+.OmcoinFooterText{
+    font-size: 24px;
+    font-weight: bold;
+    color:  #8B8B90;
+}
+.FooterText{
+    color: #57575A;
+    font-size: 12px;
+}
+.FooterText p{
+    font-size: 12px;
+}
+.footer p{
+    font-size: 11px;
+}
+.footer p.contact{
+    color: #8B8B90;
+}
+.footer a{
+    font-size: 12px;
+}
+.footer a:hover{
+    color: #57575a;
+}
+a .FooterText:hover {
+    color: #57575A;
+}
+.socialSpacingContainer{
+    display: flex;
+    padding-top: 0;
+    margin-bottom: 26px;
+}

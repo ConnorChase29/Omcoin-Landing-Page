@@ -1,0 +1,119 @@
+.brandSpacing{
+    margin-left: 0;
+}
+#brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.PageLinks{
+    margin-left: 50%;
+}
+@media screen and (max-width: 990px){
+    .PageLinks{
+        margin: 0;
+    }
+    .buttonSpacing{
+        margin: 0;
+        margin-left: 0;
+    }
+}
+.buttonSpacing{
+    margin-left: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.blackText{
+    color: black;
+}
+.nav-links {
+    color: #BCBCBC !important;
+}
+.nav-links:hover {
+    color: #ECECEC !important; /*will change color of text within the element on hover */
+}
+.navFeature{
+    background: rgba(247, 248, 250, 0.65);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(2em);
+}
+#navbar {
+    background: rgba(26,26,17,0.92) !important;
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 0px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 12px;
+}
+#navbar .buttonSpacing{
+    order: 2;
+}
+#navbar .buttonSpacing .btn-primary{
+    font-size: 12px;
+    border: 0px solid transparent;
+    box-shadow: none;
+    background-color: #ffffff;
+    color: #1D1E1F;
+}
+#navbar .buttonSpacing .btn-primary:hover{
+    background-color: #E2E2E2;
+    border: 0px solid transparent;
+}
+.navbar-light #brand.navbar-brand{
+    color: #ECECEC;
+}
+.bottom-fixed-cta{
+    display: none;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 991px){
+    #navbar .container{
+        max-width: 100%;
+    }
+    #navbar .container .navbar-toggler{
+        position: absolute;
+        right: 135px;
+        top: 16px;
+        padding: .15rem .25rem;
+    }
+    #navbar .container .navbar-toggler .navbar-toggler-icon{
+        width: 1em;
+        height: 1em;
+        background-image: url("../Assets/hamburger.svg");
+    }
+    #navbar .buttonSpacing{
+        order: 0;
+    }
+    #navbar .buttonSpacing .btn-primary{
+        font-size: 9px;
+    }
+    .bottom-fixed-cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        z-index: 10;
+        height: 78px;
+        width: 100%;
+        background: rgba(255,255,255,0.8);
+    }
+    .bottom-fixed-cta button{
+        width: 580px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 735px){
+    .bottom-fixed-cta button{
+        max-width: 310px;
+    }
+}
+@media (max-width: 320px){
+    .bottom-fixed-cta button{
+        max-width: 270px;
+    }
+}
