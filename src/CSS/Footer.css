@@ -1,7 +1,7 @@
 .footer {
     background-color:  #f5f5f7;
     padding-top: 54px;
-    padding-bottom: 30px;
+    padding-bottom: 75px;
 }
 .socialContainer{
     display: flex;
@@ -99,3 +99,13 @@ a .FooterText:hover {
     padding-top: 0;
     margin-bottom: 26px;
 }
+
+  .row {
+    align-items: center;
+    justify-content: center;
+  }
+  .socialSpacingContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

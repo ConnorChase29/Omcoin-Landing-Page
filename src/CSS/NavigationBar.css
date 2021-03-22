@@ -76,7 +76,7 @@ html {
     }
     #navbar .container .navbar-toggler{
         position: absolute;
-        right: 135px;
+        right: 10px;
         top: 16px;
         padding: .15rem .25rem;
     }
@@ -87,6 +87,7 @@ html {
     }
     #navbar .buttonSpacing{
         order: 0;
+        margin-right: 35px;
     }
     #navbar .buttonSpacing .btn-primary{
         font-size: 9px;
@@ -100,7 +101,8 @@ html {
         z-index: 10;
         height: 78px;
         width: 100%;
-        background: rgba(255,255,255,0.8);
+        background-color: rgb(152,152,152, 0.8);
+        background: linear-gradient(0deg, rgba(152,152,152,0.8) 0%, rgba(255,255,255,0.3) 100%);
     }
     .bottom-fixed-cta button{
         width: 580px;

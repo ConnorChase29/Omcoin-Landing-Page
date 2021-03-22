@@ -93,9 +93,10 @@ export class Footer extends React.Component {
 
             <MDBCol md="3">
               <div className="FooterText">
-                <p>
-                  Copyright &copy; {new Date().getFullYear()}
-                  Omcoin Inc. All rights reserved.</p>
+                <p style={{
+                    color: '#0078FF', fontSize:12
+                  }}>
+                  Copyright &copy; {new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
               </div>
             </MDBCol>
             <MDBCol md="2">
@@ -118,7 +119,7 @@ export class Footer extends React.Component {
                 <span>
                   <a href="mailto:meditation@omcoin.cash" style={{
                       color: '#0078FF'
-                    }}>meditation@oimcoin.cash</a>
+                    }}> meditation@oimcoin.cash</a>
                 </span>
               </p>
 

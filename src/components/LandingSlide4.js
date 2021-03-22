@@ -62,7 +62,7 @@ export class LandingSlide4 extends React.Component < {}, {} > {
       <div className="AvailableText">
         <p className="greyText">Buy directly on
           <span>
-            <a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap.</a>
+            <a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer"> JustSwap.</a>
           </span><br/>Available on Binance & more ASAP.</p>
       </div>
       <Button variant="outline-primary" onClick={() => {

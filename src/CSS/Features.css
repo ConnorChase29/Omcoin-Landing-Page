@@ -73,11 +73,7 @@
     width: 75%;
   }
 }
-@media screen and (min-width: 1000px){
-  .Landing1 .TitleText {
-    font-size: 43px;
-  }
-}
+
 .center{
   margin-bottom: 0;
 }
@@ -97,6 +93,20 @@
 }
 .MockUpImage img{
   max-width: 313px;
+}
+@media screen and (min-width: 1000px){
+    .MockUpImage {
+        padding-top: 0px;
+        margin-bottom: 0;
+        height: 396px;
+      }
+}
+@media screen and (max-width: 514px){
+    .MockUpImage {
+        padding-top: 0px;
+        margin-bottom: 0;
+        height: 356px;
+      }
 }
 
 /*
@@ -242,7 +252,7 @@
 */
 .Landing5{
   padding-top: 134px;
-  padding-bottom: 149px;
+  padding-bottom: 49px;
   background-color: #ffffff;
 }
 .Landing5 .Slide3Text{
