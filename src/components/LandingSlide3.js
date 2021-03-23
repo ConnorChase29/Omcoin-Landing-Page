@@ -12,7 +12,7 @@ export class LandingSlide3 extends React.Component < {}, {} > {
           marginBottom: 30
         }}>
         <h1 className="TitleText">Earning crypto is
-          <br/>this
+          <br/> this
           <span className="blueText"> rewarding.</span>
         </h1>
       </div>

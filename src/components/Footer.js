@@ -94,9 +94,9 @@ export class Footer extends React.Component {
             <MDBCol md="3">
               <div className="FooterText">
                 <p style={{
-                    color: '#0078FF', fontSize:12
+                    color: '#8B8B90', fontSize:12
                   }}>
-                  Copyright &copy; {new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
+                  &copy; {new Date().getFullYear()} Omcoin Inc. All rights reserved.</p>
               </div>
             </MDBCol>
             <MDBCol md="2">

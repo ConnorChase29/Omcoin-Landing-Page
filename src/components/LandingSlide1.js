@@ -4,6 +4,7 @@ import GooglePlayLogo from '../Assets/Google-play.png';
 import AppleLogo from '../Assets/App-store.png';
 import MockUp from '../Assets/Home-Screen.png';
 import Button from 'react-bootstrap/Button';
+import poster from '../Assets/Background-image-mobile.png'
 import '../CSS/Features.css';
 
 export class LandingSlide1 extends React.Component {
@@ -11,7 +12,7 @@ export class LandingSlide1 extends React.Component {
     return (<div className="Landing1">
       <div className="landing1Wrapper">
         <div className="backgroundVideo">
-          <video autoPlay="autoPlay" loop="loop" muted="muted" playsinline>
+          <video autoPlay="autoPlay" loop="loop" muted="muted" playsinline poster={poster}>
             <source src="/Omcoin-Landing-Page-Video3.mp4" type="video/mp4"/>
           </video>
         </div>

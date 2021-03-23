@@ -99,7 +99,7 @@ a .FooterText:hover {
     padding-top: 0;
     margin-bottom: 26px;
 }
-
+@media only screen and (max-width: 600px) {
   .row {
     align-items: center;
     justify-content: center;
@@ -109,3 +109,4 @@ a .FooterText:hover {
       align-items: center;
       justify-content: center;
   }
+}

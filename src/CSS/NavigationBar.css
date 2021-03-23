@@ -79,6 +79,7 @@ html {
         right: 10px;
         top: 16px;
         padding: .15rem .25rem;
+        display:none;
     }
     #navbar .container .navbar-toggler .navbar-toggler-icon{
         width: 1em;
@@ -101,8 +102,8 @@ html {
         z-index: 10;
         height: 78px;
         width: 100%;
-        background-color: rgb(152,152,152, 0.8);
-        background: linear-gradient(0deg, rgba(152,152,152,0.8) 0%, rgba(255,255,255,0.3) 100%);
+        background-color: rgb(152,152,152, 0.1);
+        /* background: linear-gradient(0deg, rgba(152,152,152,0.8) 0%, rgba(255,255,255,0.5) 100%); */
     }
     .bottom-fixed-cta button{
         width: 580px;
@@ -118,4 +119,9 @@ html {
     .bottom-fixed-cta button{
         max-width: 270px;
     }
+}
+@media (max-width: 735px){
+.navbar-menu {
+  display:none;
+}
 }
