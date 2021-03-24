@@ -87,7 +87,7 @@ html {
     }
     #navbar .buttonSpacing{
         order: 0;
-        margin-right: 35px;
+        
     }
     #navbar .buttonSpacing .btn-primary{
         font-size: 9px;
