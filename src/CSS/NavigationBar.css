@@ -78,7 +78,7 @@ html {
         right: 10px;
         top: 16px;
         padding: .15rem .25rem;
-        display:none;
+        /* display:none; */
     }
     #navbar .container .navbar-toggler .navbar-toggler-icon{
         width: 1em;
