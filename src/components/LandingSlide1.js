@@ -3,6 +3,7 @@ import Logo from '../Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from '../Assets/Google-play.png';
 import AppleLogo from '../Assets/App-store.png';
 import MockUp from '../Assets/Home-Screen.png';
+// import MockUp from '../Assets/Home-screen-phone-mockup2.png';
 import Button from 'react-bootstrap/Button';
 // import poster from '../Assets/Background-image-mobile.png'
 import '../CSS/Features.css';
@@ -12,8 +13,8 @@ export class LandingSlide1 extends React.Component {
     return (<div className="Landing1">
       <div className="landing1Wrapper">
         <div className="backgroundVideo">
-          <video autoPlay="autoPlay" loop="loop" muted="muted" playsinline controls>
-            <source src="/Omcoin-Landing-Page-Video3.mp4" type="video/mp4"/>
+          <video autoPlay="autoPlay" loop="loop" muted playsinline>
+            <source src="/Omcoin-Landing-Page-Video.mp4" type="video/mp4"/>
           </video>
         </div>
         <div className="landing1Content">

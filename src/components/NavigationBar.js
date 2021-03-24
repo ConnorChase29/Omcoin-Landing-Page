@@ -6,7 +6,7 @@ import '../CSS/NavigationBar.css';
 export class NavigationBar extends React.Component {
   render() {
     return (<div>
-      <Navbar bg="light" expand="lg" id="navbar" fixed="top" className="navbar-menu">
+      <Navbar bg="light" expand="lg" id="navbar" >
         <div className="container">
           <div className="brandSpacing">
             <Navbar.Brand id="brand" href="/">Omcoin</Navbar.Brand>
