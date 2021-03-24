@@ -48,3 +48,14 @@
 		background-position: 0% 50%;
 	}
 }
+
+.terms h2 {
+  margin-top: 40px;
+}
+.terms h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: .009em;
+}

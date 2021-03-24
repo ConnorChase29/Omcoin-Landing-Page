@@ -50,19 +50,19 @@ export class LandingSlide4 extends React.Component < {}, {} > {
         <img src={MockUp} alt="Mock Up"/>
       </div>
       <div>
-        <img src={Logo} alt="Omcoin logo"/>
+        <img src={Logo} alt="Omcoin logo" style={{marginBottom:15}}/>
       </div>
       <h1 className="whiteText OmcoinText TitleText" style={{
-          marginBottom: 10
-        }}>Om<span className="lightBlue">coin</span>
+          marginBottom: 10,
+        }}>Omcoin
       </h1>
       <div className="PurchaseText">
         <h2 className="whiteText">Now available for purchase.</h2>
       </div>
       <div className="AvailableText">
-        <p className="greyText">Buy directly on
+        <p className="greyText">Buy directly on{' '}
           <span>
-            <a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer"> JustSwap.</a>
+            <a href="https://justswap.io/#/home" target="_blank" rel="noopener noreferrer">JustSwap.</a>
           </span><br/>Available on Binance & more ASAP.</p>
       </div>
       <Button variant="outline-primary" onClick={() => {

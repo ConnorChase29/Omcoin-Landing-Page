@@ -106,7 +106,7 @@ export class Footer extends React.Component {
 
             </MDBCol>
             <MDBCol md="2">
-              <a href="https://github.com/Omcoin-Official/Omcoin-Smart-Contract" target="_blank" rel="noopener noreferrer">
+              <a href="https://tronscan.org/#/token20/TJjoep8pFxBwMzQPa2HSP2fauq8EH3peJB/code" target="_blank" rel="noopener noreferrer">
                 <div className="FooterText">
                   Smart Contract</div>
               </a>

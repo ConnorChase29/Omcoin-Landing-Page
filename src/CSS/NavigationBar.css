@@ -39,7 +39,6 @@ html {
 }
 #navbar {
     background: rgba(26,26,17,0.92) !important;
-    backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 0px solid transparent;
 }
 .navbar-light .navbar-nav .nav-link{
@@ -103,7 +102,6 @@ html {
         height: 78px;
         width: 100%;
         background-color: rgb(152,152,152, 0.1);
-        /* background: linear-gradient(0deg, rgba(152,152,152,0.8) 0%, rgba(255,255,255,0.5) 100%); */
     }
     .bottom-fixed-cta button{
         width: 580px;
@@ -121,7 +119,7 @@ html {
     }
 }
 @media (max-width: 735px){
-.navbar-menu {
-  display:none;
-}
+  .navbar-menu {
+    display:none;
+  }
 }
