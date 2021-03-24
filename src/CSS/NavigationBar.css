@@ -118,8 +118,8 @@ html {
         max-width: 270px;
     }
 }
-@media (max-width: 735px){
+/* @media (max-width: 735px){
   .navbar-menu {
     display:none;
   }
-}
+} */
