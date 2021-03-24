@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../Assets/Omapp-App-Icon.svg';
 import GooglePlayLogo from '../Assets/Google-play.png';
 import AppleLogo from '../Assets/App-store.png';
-import MockUp from '../Assets/Home-Screen.png';
+import MockUp from '../Assets/Home-Screen2.png';
 // import MockUp from '../Assets/Home-screen-phone-mockup2.png';
 import Button from 'react-bootstrap/Button';
 // import poster from '../Assets/Background-image-mobile.png'
