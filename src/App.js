@@ -1,7 +1,7 @@
 import React from 'react';
 import './CSS/App.css';
 import FeaturesPage from './pages/FeaturesPage';
-import TermsOfService from './pages/TermsOfService';
+import TermsOfService from './pages/TermsOfService2';
 import Footer from './components/Footer';
 import NavBar from './components/NavigationBar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

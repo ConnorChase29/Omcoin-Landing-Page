@@ -115,11 +115,11 @@ export class Footer extends React.Component {
               <style type="text/css">
                 {`a:hover { color: #1D1D1F; }`}
               </style>
-              <p className="contact">Contact:<span className="FooterText"></span>
+              <p className="contact">Contact: <span className="FooterText"></span>
                 <span>
                   <a href="mailto:meditation@omcoin.cash" style={{
                       color: '#0078FF'
-                    }}> meditation@oimcoin.cash</a>
+                    }}>meditation@oimcoin.cash</a>
                 </span>
               </p>
 
