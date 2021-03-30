@@ -15,7 +15,7 @@ export class LandingSlide1 extends React.Component {
       <div className="Landing1">
         <div className="landing1Wrapper">
           <div className="backgroundVideo">
-            <video autoPlay loop muted playsInline>
+            <video className="video-content" autoPlay loop muted playsInline>
               <source src={bgVideo} type="video/mp4" />
             </video>
           </div>
