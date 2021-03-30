@@ -17,7 +17,7 @@ export class LandingSlide1 extends React.Component {
           <div className="backgroundVideo">
             <video
               className="video-content"
-              src="videos/Omcoin-Landing-Page-Video.mp4"
+              src="https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin-Landing-Page-Video-1.mp4"
               autoPlay
               loop
               muted
