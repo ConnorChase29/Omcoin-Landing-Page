@@ -16,11 +16,14 @@ export class LandingSlide1 extends React.Component {
           <div
             className="backgroundVideo"
             data-video-options={`{"autoplay":true}`}
-            data-video-path="Omcoin-Landing-Page-Video.mp4"
+            data-video-path="videos/Omcoin-Landing-Page-Video.mp4"
             data-component-list="InlineVideo"
           >
             <video autoPlay="autoPlay" loop="loop" muted playsInline>
-              <source src="Omcoin-Landing-Page-Video.mp4" type="video/mp4" />
+              <source
+                src="videos/Omcoin-Landing-Page-Video.mp4"
+                type="video/mp4"
+              />
             </video>
           </div>
           <div className="landing1Content">
