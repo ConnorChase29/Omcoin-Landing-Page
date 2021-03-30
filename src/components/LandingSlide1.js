@@ -10,46 +10,60 @@ import '../CSS/Features.css';
 
 export class LandingSlide1 extends React.Component {
   render() {
-    return (<div className="Landing1">
-      <div className="landing1Wrapper">
-        <div className="backgroundVideo" data-video-options={`{"autoplay":true}`} data-video-path="/Omcoin-Landing-Page-Video.mp4" data-component-list="InlineVideo">
-          <video autoPlay="autoPlay" loop="loop" muted playsinline>
-            <source src="/Omcoin-Landing-Page-Video.mp4" type="video/mp4"/>
-          </video>
-        </div>
-        <div className="landing1Content">
-          <div className="omcoinLogoDiv">
-            <img src={Logo} alt="Omcoin Logo"/>
+    return (
+      <div className="Landing1">
+        <div className="landing1Wrapper">
+          <div
+            className="backgroundVideo"
+            data-video-options={`{"autoplay":true}`}
+            data-video-path="/Omcoin-Landing-Page-Video.mp4"
+            data-component-list="InlineVideo"
+          >
+            <video autoPlay="autoPlay" loop="loop" muted playsInline>
+              <source src="/Omcoin-Landing-Page-Video.mp4" type="video/mp4" />
+            </video>
           </div>
-          <div>
-            <img id="googleLogo" src={GooglePlayLogo} alt="GooglePlay Logo"/>
-            <img src={AppleLogo} alt="Apple Logo"/>
-          </div>
+          <div className="landing1Content">
+            <div className="omcoinLogoDiv">
+              <img src={Logo} alt="Omcoin Logo" />
+            </div>
+            <div>
+              <img id="googleLogo" src={GooglePlayLogo} alt="GooglePlay Logo" />
+              <img src={AppleLogo} alt="Apple Logo" />
+            </div>
 
-          <div className="AMeditationTextDiv">
+            <div className="AMeditationTextDiv">
+              <h1 className="TitleText">
+                A meditation experience
+                <br></br>
+                with crypto rewards.
+              </h1>
+            </div>
 
-            <h1 className="TitleText">A meditation experience
-              <br></br>
-              with crypto rewards.
-            </h1>
-          </div>
-
-          <div className="whitePaperButtonSpacing">
-            <style type="text/css">
-              {`.btn-huge { padding: 2rem 5rem; font-size: 1.5rem; }`}
-            </style>
-            <Button id="buttonStyling" variant="primary" className="rounded-pill shadow-box-example z-depth-5 btn-huge" onClick={() => {
-                window.open("https://drive.google.com/file/d/1p0M-f-o-D0jOt9R9-dPD1L49ButKYtNN/view?usp=sharing")
-              }}>
-              Read our white paper
-            </Button>
-          </div>
-          <div className="MockUpImage">
-            <img src={MockUp} alt="MockUp" className="center"/>
+            <div className="whitePaperButtonSpacing">
+              <style type="text/css">
+                {`.btn-huge { padding: 2rem 5rem; font-size: 1.5rem; }`}
+              </style>
+              <Button
+                id="buttonStyling"
+                variant="primary"
+                className="rounded-pill shadow-box-example z-depth-5 btn-huge"
+                onClick={() => {
+                  window.open(
+                    'https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf'
+                  );
+                }}
+              >
+                Read our white paper
+              </Button>
+            </div>
+            <div className="MockUpImage">
+              <img src={MockUp} alt="MockUp" className="center" />
+            </div>
           </div>
         </div>
       </div>
-    </div>)
+    );
   }
 }
 
