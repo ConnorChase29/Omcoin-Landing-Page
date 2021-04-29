@@ -48,6 +48,13 @@ export class NavigationBar extends React.Component {
                       Features
                     </Nav.Link>
                   </div>
+                  <div className="buttonSpacing">
+                    <Nav.Link className="nav-links" onClick={() => {
+                       window.open('https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf');
+                      }}>
+                      White Paper
+                    </Nav.Link>
+                  </div>
                 </Nav>
               </div>
             </Navbar.Collapse>
