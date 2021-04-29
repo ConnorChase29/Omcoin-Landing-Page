@@ -17,7 +17,7 @@ export class LandingSlide2 extends React.Component < {}, {} > {
       <div className="VideoPadding">
         <div className="container">
           <div className="responsiveImage">
-            <iframe title="Youtube" height="572" width="100%" src="https://www.youtube.com/embed/8ew2ZHoYgcg" allowFullScreen="allowFullScreen"></iframe>
+            <iframe title="Youtube" height="545" width="750" src="https://www.youtube.com/embed/Uhq6tfVzLVs" allowFullScreen="allowFullScreen"></iframe>
           </div>
         </div>
 

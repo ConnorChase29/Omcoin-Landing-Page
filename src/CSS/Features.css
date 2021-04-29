@@ -209,6 +209,30 @@ iframe {
   margin-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
+  
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #808080 !important;
+}
+.left{
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-left: 0%;
+  float: right;
+}
+@media (max-width: 991px) {
+  .left{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+  }
+}
+.mockupGreyText{
+  color: grey;
 }
 .emailButtonSpacing {
   margin-left: 2%;

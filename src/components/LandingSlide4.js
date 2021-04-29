@@ -1,5 +1,5 @@
 import React from 'react';
-import MockUp from '../Assets/Omapp-Mock-2.png';
+import MockUp from '../Assets/Mockups.svg';
 import Logo from '../Assets/Omcoin-icon.png';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
@@ -85,7 +85,15 @@ export class LandingSlide4 extends React.Component {
         </div>
         <div className="MockupDiv">
           <img src={MockUp} alt="Mock Up" />
+          <div className = "left">
+            <h4 className = "whiteText SecondTitleText">Mindfulness Marketplace</h4>
+            <h4 className = "mockupGreyText SecondTitleText">Premium content</h4>
+            <h4 className = "mockupGreyText SecondTitleText">Digital goods</h4>
+            <h4 className = "mockupGreyText SecondTitleText">Tip creators</h4>
+          </div>
+          
         </div>
+
         <div>
           <img src={Logo} alt="Omcoin logo" style={{ marginBottom: 15 }} />
         </div>

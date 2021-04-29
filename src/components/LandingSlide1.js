@@ -50,11 +50,11 @@ export class LandingSlide1 extends React.Component {
                 className="rounded-pill shadow-box-example z-depth-5 btn-huge"
                 onClick={() => {
                   window.open(
-                    'https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf'
+                    'https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en'
                   );
                 }}
               >
-                Read our white paper
+              Buy Omcoin
               </Button>
             </div>
             <div className="MockUpImage">
