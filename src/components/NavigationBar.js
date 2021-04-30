@@ -27,11 +27,11 @@ export class NavigationBar extends React.Component {
                 target="_blank"
                 onClick={() => {
                   window.open(
-                    'https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf'
+                    'https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en'
                   );
                 }}
               >
-                Read our white paper
+                Buy Now
               </Button>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -48,25 +48,18 @@ export class NavigationBar extends React.Component {
                       Features
                     </Nav.Link>
                   </div>
+                  <div className="buttonSpacing">
+                    <Nav.Link className="nav-links" onClick={() => {
+                       window.open('https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf');
+                      }}>
+                      White Paper
+                    </Nav.Link>
+                  </div>
                 </Nav>
               </div>
             </Navbar.Collapse>
           </div>
         </Navbar>
-        <div className="bottom-fixed-cta">
-          <Button
-            variant="primary"
-            className="rounded-pill"
-            target="_blank"
-            onClick={() => {
-              window.open(
-                'https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf'
-              );
-            }}
-          >
-            Read our white paper
-          </Button>
-        </div>
       </div>
     );
   }

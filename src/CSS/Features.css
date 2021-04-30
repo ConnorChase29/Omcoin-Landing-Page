@@ -147,6 +147,13 @@ iframe {
 /*
   * Landing Slide3 css
 */
+img{
+  padding: 0;
+  margin: 0;
+}
+.image{
+  display: block;
+}
 .Landing3 {
   background-color: #f5f5f7;
   overflow: hidden;
@@ -161,7 +168,8 @@ iframe {
   }
 }
 .Landing3 .container .responsiveImage {
-  width: 99%;
+  width: 80%;
+  margin-left: 7%;
 }
 .Landing3 .carousel-indicators li {
   background-color: #1d1f20;
@@ -196,12 +204,16 @@ iframe {
   line-height: initial;
   margin-bottom: 50px;
 }
+.MindfulText{
+  font-size: 28px;
+  font-weight: bold;
+}
 .OmcoinText {
   margin-top: -50px;
   margin-bottom: 0px;
 }
 .MockupDiv {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 150px;
 }
 .emailInputField {
@@ -209,6 +221,32 @@ iframe {
   margin-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
+  
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #808080 !important;
+}
+.left{
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-left: 0%;
+  float: right;
+}
+@media (max-width: 991px) {
+  .left{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+  }
+}
+.mockupGreyText{
+  color: grey;
 }
 .emailButtonSpacing {
   margin-left: 2%;
@@ -279,7 +317,13 @@ iframe {
   }
 }
 .Landing5 .container .responsiveImage {
-  width: 99%;
+  width: 80%;
+  margin-left: 8%;
+  /*
+  margin-left: 5%;
+  margin-right: 0;
+  */
+  
 }
 .Landing5 .carousel-indicators li {
   background-color: #1d1f20;
