@@ -5,7 +5,7 @@ import Feature2 from '../Assets/Feature-card-2RE-750x545.png';
 import Feature3 from '../Assets/Feature-card-3RE-750x545.png';
 //import './CSS/Features.css';
 
-export class LandingSlide3 extends React.Component < {}, {} > {
+export class LandingSlide3 extends React.Component<{}, {}> {
   render() {
     return (<div id="Features" className="Landing3">
       <div className="Slide3Text" style={{
@@ -29,7 +29,8 @@ export class LandingSlide3 extends React.Component < {}, {} > {
           </div>
         </div>
       </div>
-    </div>)
+      </div>
+    );
   }
 }
 
