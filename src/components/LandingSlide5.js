@@ -17,16 +17,16 @@ export class LandingSlide5 extends React.Component<{}, {}> {
         </div>
         <div className="responsiveImage">
           <div className="container">
-            <div>
+            <div className="responsiveImage">
               <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
             </div>
-            <div>
+            <div className="responsiveImage">
               <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
             </div>
-            <div>
+            <div className="responsiveImage">
               <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
             </div>
-            <div>
+            <div className="responsiveImage">
               <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
             </div>
           </div>

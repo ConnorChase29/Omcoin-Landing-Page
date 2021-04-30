@@ -31,7 +31,7 @@ export class NavigationBar extends React.Component {
                   );
                 }}
               >
-                Buy Omcoin
+                Buy Now
               </Button>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -52,7 +52,7 @@ export class NavigationBar extends React.Component {
                     <Nav.Link className="nav-links" onClick={() => {
                        window.open('https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf');
                       }}>
-                      White Papers
+                      White Paper
                     </Nav.Link>
                   </div>
                 </Nav>
