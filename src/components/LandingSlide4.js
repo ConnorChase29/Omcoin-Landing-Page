@@ -1,6 +1,6 @@
 import React from 'react';
-import MockUp from '../Assets/Omapp-Mock-2.png';
-import Logo from '../Assets/Omcoin-icon.png';
+import MockUp from '../Assets/Mockups.svg';
+import Logo from '../Assets/Omcoin-icon.svg';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
@@ -85,7 +85,15 @@ export class LandingSlide4 extends React.Component {
         </div>
         <div className="MockupDiv">
           <img src={MockUp} alt="Mock Up" />
+          <div className = "left">
+            <h4 className = "whiteText MindfulText">Mindfulness Marketplace</h4>
+            <h4 className = "mockupGreyText MindfulText">Premium content</h4>
+            <h4 className = "mockupGreyText MindfulText">Digital goods</h4>
+            <h4 className = "mockupGreyText MindfulText">Tip creators</h4>
+          </div>
+          
         </div>
+
         <div>
           <img src={Logo} alt="Omcoin logo" style={{ marginBottom: 15 }} />
         </div>
@@ -105,11 +113,11 @@ export class LandingSlide4 extends React.Component {
             Buy directly on{' '}
             <span>
               <a
-                href="https://justswap.io/#/home"
+                href="https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                JustSwap.
+                BW.
               </a>
             </span>
             <br />
@@ -119,7 +127,7 @@ export class LandingSlide4 extends React.Component {
         <Button
           variant="outline-primary"
           onClick={() => {
-            window.open('https://justswap.io/#/home');
+            window.open('https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en');
           }}
         >
           Buy OMM

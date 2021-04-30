@@ -3,7 +3,7 @@ import '../CSS/Features.css';
 
 export class LandingSlide2 extends React.Component<{}, {}> {
   render() {
-    return (
+    return (<div>
       <div id="Overview" className="Landing2">
         <div className="TextPadding">
           <div className="Slide3Text">
@@ -14,19 +14,14 @@ export class LandingSlide2 extends React.Component<{}, {}> {
             </h1>
           </div>
         </div>
-        <div className="VideoPadding">
-          <div className="container">
-            <div className="responsiveImage">
-              <iframe
-                title="Youtube"
-                height="572"
-                width="100%"
-                src="https://www.youtube.com/embed/H0vPdtGs7vE"
-                allowFullScreen="allowFullScreen"
-              ></iframe>
-            </div>
+      </div>
+      <div className="VideoPadding">
+        <div className="container">
+          <div className="responsiveImage">
+            <iframe title="Youtube" height="572" width="75%" src="https://www.youtube.com/embed/Uhq6tfVzLVs" allowFullScreen="allowFullScreen"></iframe>
           </div>
         </div>
+      </div>
       </div>
     );
   }

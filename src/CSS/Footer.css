@@ -97,20 +97,38 @@
 a .FooterText:hover {
   color: #57575a;
 }
-.socialSpacingContainer {
-  display: flex;
-  padding-top: 0;
-  margin-bottom: 26px;
+.socialSpacingContainer{
+    display: flex;
+    padding-top: 0;
+    margin-bottom: 26px;
+    padding-left: 20%;
+}
+@media only screen and (max-width: 1000px) {
+    .socialSpacingContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .socialSpacingContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
 }
 @media only screen and (max-width: 600px) {
   .row {
     align-items: center;
     justify-content: center;
   }
-  .socialSpacingContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .socialSpacingContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0;
   }
 }
 @media only screen and (max-width: 1000px) {
