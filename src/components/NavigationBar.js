@@ -31,7 +31,7 @@ export class NavigationBar extends React.Component {
                   );
                 }}
               >
-                Buy Now
+                Buy Omcoin
               </Button>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
