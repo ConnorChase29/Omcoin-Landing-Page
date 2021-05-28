@@ -110,27 +110,16 @@ export class LandingSlide4 extends React.Component {
         </div>
         <div className="AvailableText">
           <p className="greyText">
-            Buy directly on{' '}
-            <span>
-              <a
-                href="https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                BW.
-              </a>
-            </span>
-            <br />
-            Available on Binance & more ASAP.
+            Read our white paper
           </p>
         </div>
         <Button
           variant="outline-primary"
           onClick={() => {
-            window.open('https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en');
+            window.open('https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin_White_Paper.pdf');
           }}
         >
-          Buy OMM
+          White Paper
         </Button>
       </div>
     );
