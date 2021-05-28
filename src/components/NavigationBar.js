@@ -27,7 +27,7 @@ export class NavigationBar extends React.Component {
                 target="_blank"
                 onClick={() => {
                   window.open(
-                    'https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en'
+                    'https://omcoin.clickfunnels.com/squeeze-page-484506991620757910805'
                   );
                 }}
               >

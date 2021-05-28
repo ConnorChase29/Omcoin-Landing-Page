@@ -53,7 +53,7 @@ export class LandingSlide1 extends React.Component {
                 className="rounded-pill shadow-box-example z-depth-5 btn-huge"
                 onClick={() => {
                   window.open(
-                    'https://www.bw.com/regGetCommission/ODVCV0ZzV0M1Y08=?lan=en'
+                    'https://omcoin.clickfunnels.com/squeeze-page-484506991620757910805'
                   );
                 }}
               >
