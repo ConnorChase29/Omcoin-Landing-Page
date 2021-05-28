@@ -57,7 +57,7 @@ export class LandingSlide1 extends React.Component {
                   );
                 }}
               >
-              Buy Now
+              Buy Omcoin
               </Button>
             </div>
             <div className="MockUpImage">
