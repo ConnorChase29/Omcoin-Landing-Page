@@ -6,42 +6,41 @@ export class TermsOfService extends React.Component {
     return (<div className="container">
       <div className="centerAlign" style={{marginBottom:110, paddingTop:60}}>
         <div className="centerAlign" style={{paddingBottom:40, borderBottom: '1px solid #c3c3c3'}}>
-          <h1><b>Omcoin Terms of Use</b></h1>
+          <h1><b>Omcoin Terms of Service</b></h1>
           <p>Legal Information & Notices</p>
           </div>
           <div className="leftAlign terms">
-          <h2><b>Interpretation and Definitions</b></h2>
           <h2><b>Interpretation</b></h2>
           <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
           <h2><b>Definitions</b></h2>
           <p>For the purposes of these Terms and Conditions:</p>
           <ul>
           <li>
-          <p>AFFILIATE means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+          <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
           </li>
           <li>
-          <p>COUNTRY refers to: Florida, United States</p>
+          <p><strong>Country</strong> refers to: Florida, United States</p>
           </li>
           <li>
-          <p>COMPANY (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Omcoin, 2065 Venetian Way.</p>
+          <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Omcoin, 2065 Venetian Way.</p>
           </li>
           <li>
-          <p>DEVICE means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+          <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
           </li>
           <li>
-          <p>SERVICE refers to the Website.</p>
+          <p><strong>Service</strong> refers to the Website.</p>
           </li>
           <li>
-          <p>TERMS AND CONDITIONS (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the  <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank" rel="noreferrer">Terms and Conditions Generator</a>.</p>
+          <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the  <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank" rel="noreferrer">Terms and Conditions Generator</a>.</p>
           </li>
           <li>
-          <p>THIRD-PARTY SOCIAL MEDIA SERVICE means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
+          <p><strong>Third-Party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
           </li>
           <li>
-          <p>WEBSITE refers to Omcoin, accessible from  <a href="http://www.omcoin.cash" rel="external nofollow noopener noreferrer" target="_blank">http://www.omcoin.cash</a></p>
+          <p><strong>Website</strong> refers to Omcoin, accessible from  <a href="http://www.omcoin.cash" rel="external nofollow noopener noreferrer" target="_blank">http://www.omcoin.cash</a></p>
           </li>
           <li>
-          <p>YOU means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+          <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
           </li>
           </ul>
           <h2><b>Acknowledgment</b></h2>
