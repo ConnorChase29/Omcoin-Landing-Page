@@ -83,9 +83,10 @@ export class LandingSlide4 extends React.Component {
             </form>
           )}
         </div>
+        
         <div className="MockupDiv">
-          <img src={MockUp} alt="Mock Up" />
-          <div className = "left">
+          <img className = "mockUpImage"src={MockUp} alt="Mock Up"/>
+          <div className = "right">
             <h4 className = "whiteText MindfulText">Mindfulness Marketplace</h4>
             <h4 className = "mockupGreyText MindfulText">Premium content</h4>
             <h4 className = "mockupGreyText MindfulText">Digital goods</h4>

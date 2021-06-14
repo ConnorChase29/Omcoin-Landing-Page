@@ -230,14 +230,29 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: #808080 !important;
 }
-.left{
+.mockUpImage{
+  width: auto;
+  height: auto;
+}
+@media (max-width: 991px) {
+  .mockUpImage{
+    width: 75%;
+    height: 75%;
+  }
+}
+.right{
+  /*
   padding-top: 20%;
   padding-right: 20%;
   padding-left: 0%;
+  */
   float: right;
+  padding: 20% 20% 0 0;
+  
+  
 }
 @media (max-width: 991px) {
-  .left{
+  .right{
     padding-top: 100px;
     padding-bottom: 150px;
     padding-left: 0%;
