@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 // import { Carousel } from 'react-bootstrap';
 import Feature1 from '../Assets/Sliding-Card-1-DS-750x545.png';
 import Feature2 from '../Assets/Feature-card-2RE-750x545.png';
 import Feature3 from '../Assets/Feature-card-3RE-750x545.png';
 //import './CSS/Features.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-export class LandingSlide3 extends React.Component < {}, {} > {
+export class LandingSlide3 extends React.Component {
+  useEffect() {
+    Aos.init( {duration: 2000});
+  }
   render() {
     return (<div id="Features" className="Landing3">
       <div className="Slide3Text" style={{
@@ -18,13 +23,13 @@ export class LandingSlide3 extends React.Component < {}, {} > {
       </div>
       <div className="responsiveImage">
         <div className="container">
-          <div className="responsiveImage">
+          <div data-aos = "fade-up"  className="responsiveImage">
             <img className="responsiveImage" src={Feature1} alt="Feature 1"/>
           </div>
-          <div className="responsiveImage">
+          <div data-aos = "fade-left" className="responsiveImage">
             <img className="responsiveImage" src={Feature2} alt="Feature 2"/>
           </div>
-          <div className="responsiveImage">
+          <div  data-aos = "fade-right"className="responsiveImage">
             <img className="responsiveImage" src={Feature3} alt="Feature 3"/>
           </div>
         </div>
