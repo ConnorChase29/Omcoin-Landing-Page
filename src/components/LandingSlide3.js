@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 // import { Carousel } from 'react-bootstrap';
-import Feature1 from '../Assets/Sliding-Card-1-DS-750x545.png';
-import Feature2 from '../Assets/Feature-card-2RE-750x545.png';
-import Feature3 from '../Assets/Feature-card-3RE-750x545.png';
+import Feature1 from '../Assets/Group_88.svg';
+import Feature2 from '../Assets/Feature-card-2.svg';
+import Feature3 from '../Assets/Feature-card-3.svg';
 //import './CSS/Features.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
