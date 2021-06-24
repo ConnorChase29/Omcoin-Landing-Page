@@ -6,8 +6,12 @@ import Roadmap3 from '../Assets/Roadmap-card-3.png';
 import Roadmap4 from '../Assets/Roadmap-card-4.png';
 // import Roadmap5 from '../Assets/Roadmap-card-5.png';
 import '../CSS/Features.css';
+import Aos from 'aos';
 
 export class LandingSlide5 extends React.Component<{}, {}> {
+  useEffect() {
+    Aos.init( {duration: 2000});
+  }
   render() {
     return (
       <div className="Landing5">
@@ -17,16 +21,16 @@ export class LandingSlide5 extends React.Component<{}, {}> {
         </div>
         <div className="responsiveImage">
           <div className="container">
-            <div className="responsiveImage">
+            <div data-aos = "fade-up" className="responsiveImage">
               <img className="responsiveImage" src={Roadmap} alt="Roadmap 1" />
             </div>
-            <div className="responsiveImage">
+            <div data-aos = "fade-left" className="responsiveImage">
               <img className="responsiveImage" src={Roadmap2} alt="Roadmap 2" />
             </div>
-            <div className="responsiveImage">
+            <div data-aos = "fade-right" className="responsiveImage">
               <img className="responsiveImage" src={Roadmap3} alt="Roadmap 3" />
             </div>
-            <div className="responsiveImage">
+            <div data-aos = "fade-left" className="responsiveImage">
               <img className="responsiveImage" src={Roadmap4} alt="Roadmap 4" />
             </div>
           </div>

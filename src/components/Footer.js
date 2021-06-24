@@ -9,7 +9,6 @@ export class Footer extends React.Component {
         <MDBContainer  className="container">
           <MDBCol>
             <MDBRow >
-
               <div className="socialSpacingContainer">
                 <div className="socialSpacing">
                   <a href="https://www.instagram.com/omcoin_official/" target="_blank" rel="noopener noreferrer">
