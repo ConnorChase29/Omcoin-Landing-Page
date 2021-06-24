@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 // import { Carousel } from 'react-bootstrap';
 import Feature1 from '../Assets/Group_88.svg';
 import Feature2 from '../Assets/Feature-card-2.svg';
