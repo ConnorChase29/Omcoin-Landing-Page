@@ -39,7 +39,16 @@ iframe {
   top: 0px;
   z-index: 0;
   height: 100%;
+  width: 100%;
 }
+
+.video-content {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 .Landing1 .landing1Wrapper .landing1Content {
   position: relative;
   z-index: 1;
