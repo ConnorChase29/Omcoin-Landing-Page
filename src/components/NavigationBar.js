@@ -17,7 +17,7 @@ export class NavigationBar extends React.Component {
           <div className="container">
             <div className="brandSpacing">
               <Navbar.Brand id="brand" href="/">
-                Omcoin
+                Zenbase
               </Navbar.Brand>
             </div>
             <div className="buttonSpacing">
@@ -31,7 +31,7 @@ export class NavigationBar extends React.Component {
                   );
                 }}
               >
-                Buy Omcoin
+                Buy Zentoken
               </Button>
             </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

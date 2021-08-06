@@ -18,7 +18,7 @@ export class LandingSlide3 extends React.Component {
         }}>
         <h1 className="TitleText">Earning crypto is
           <br/> this
-          <span className="blueText"> rewarding.</span>
+          <span className="blueText"> easy.</span>
         </h1>
       </div>
       <div className="responsiveImage">
