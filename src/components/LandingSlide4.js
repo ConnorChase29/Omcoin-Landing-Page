@@ -47,16 +47,16 @@ export class LandingSlide4 extends React.Component {
               marginBottom: 10
             }}
           >
-            Omapp
+            Zenbase
           </h1>
-          <h2 className="whiteText SecondTitleText">Releasing Spring 2021.</h2>
+          <h2 className="whiteText SecondTitleText">Releasing Winter 2022.</h2>
         </div>
         <div className="ReleasingText"></div>
         <div className="AvailableText">
           <p className="greyText">
             Available soon on iOS & Android.
             <br />
-            Be the first to hear about Omcoin's release.
+            Be the first to hear when Zenbase releases.
           </p>
         </div>
 
@@ -104,10 +104,11 @@ export class LandingSlide4 extends React.Component {
             marginBottom: 10
           }}
         >
-          Omcoin
+          Zenbase
         </h1>
         <div className="PurchaseText">
-          <h2 className="whiteText">Now available for purchase.</h2>
+          <h2 className="whiteText">Discover how we are uprooting paid
+              subscriptions.</h2>
         </div>
         <div className="AvailableText">
           <p className="greyText">

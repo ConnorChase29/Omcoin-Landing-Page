@@ -17,7 +17,7 @@ export class LandingSlide5 extends React.Component<{}, {}> {
       <div className="Landing5">
         <div className="Slide3Text">
           <h1 className="TitleText">Roadmap</h1>
-          <h2>Our 2021 plans.</h2>
+          <h2>Our 2022 plans.</h2>
         </div>
         <div className="responsiveImage">
           <div className="container">
