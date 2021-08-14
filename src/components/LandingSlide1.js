@@ -1,8 +1,9 @@
 import React from 'react';
-import Logo from '../Assets/Omapp-App-Icon.svg';
+import Logo from '../Assets/Zenbase-App-Icon.svg';
 import GooglePlayLogo from '../Assets/Google-play.png';
 import AppleLogo from '../Assets/App-store.png';
 import MockUp from '../Assets/Home-Screen2.png';
+// import bgVideo from '../Assets/Omcoin-Landing-Page-Video.mp4';
 // import MockUp from '../Assets/Home-screen-phone-mockup2.png';
 import Button from 'react-bootstrap/Button';
 // import poster from '../Assets/Background-image-mobile.png'
@@ -13,19 +14,21 @@ export class LandingSlide1 extends React.Component {
     return (
       <div className="Landing1">
         <div className="landing1Wrapper">
-          <div
-            className="backgroundVideo"
-            data-video-options={`{"autoplay":true}`}
-            data-video-path="/Omcoin-Landing-Page-Video.mp4"
-            data-component-list="InlineVideo"
-          >
-            <video autoPlay="autoPlay" loop="loop" muted playsInline>
-              <source src="/Omcoin-Landing-Page-Video.mp4" type="video/mp4" />
+          <div className="backgroundVideo">
+            <video
+              className="video-content"
+              src="https://omcoinwhitepaper.s3.us-east-2.amazonaws.com/Omcoin-Landing-Page-Video-1.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              {/* <source src={bgVideo} type="video/mp4" /> */}
             </video>
           </div>
           <div className="landing1Content">
             <div className="omcoinLogoDiv">
-              <img src={Logo} alt="Omcoin Logo" />
+              <img src={Logo} alt="Zenbase-App-Icon.png" />
             </div>
             <div>
               <img id="googleLogo" src={GooglePlayLogo} alt="GooglePlay Logo" />

@@ -5,22 +5,27 @@ iframe {
 /*
   * Landing Slide1 css
 */
-.omcoinLogoDiv {
-  margin-top: 50px;
-  margin-bottom: 0px;
+.omcoinLogoDiv /* Google Play */ {
+  margin-top: 100px;
+  margin-bottom: 45px;
+
 }
+
 .omcoinLogoDiv img {
-  max-width: 132px;
+  max-width: 100px;
+  
 }
+
 #googleLogo {
   margin-right: 25px;
+  margin-bottom: 1px;
 }
 .AMeditationTextDiv {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .whitePaperButtonSpacing {
   margin-top: 47px;
-  margin-bottom: 63px;
+  margin-bottom: 47px;
 }
 .Landing1 {
   margin-top: 62px;
@@ -39,7 +44,16 @@ iframe {
   top: 0px;
   z-index: 0;
   height: 100%;
+  width: 100%;
 }
+
+.video-content {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 .Landing1 .landing1Wrapper .landing1Content {
   position: relative;
   z-index: 1;

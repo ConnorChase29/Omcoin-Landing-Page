@@ -1,9 +1,9 @@
 import React from 'react';
 // import { Carousel } from 'react-bootstrap';
-import Roadmap from '../Assets/Roadmap-card-DS.png';
-import Roadmap2 from '../Assets/Roadmap-card-2RE.png';
-import Roadmap3 from '../Assets/Roadmap-card-3.png';
-import Roadmap4 from '../Assets/Roadmap-card-4.png';
+import Roadmap from '../Assets/Card-4.svg';
+import Roadmap2 from '../Assets/Card-5.svg';
+import Roadmap3 from '../Assets/Card-6.svg';
+import Roadmap4 from '../Assets/Card-7.svg';
 // import Roadmap5 from '../Assets/Roadmap-card-5.png';
 import '../CSS/Features.css';
 import Aos from 'aos';

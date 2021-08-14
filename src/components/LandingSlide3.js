@@ -34,7 +34,8 @@ export class LandingSlide3 extends React.Component {
           </div>
         </div>
       </div>
-    </div>)
+      </div>
+    );
   }
 }
 
