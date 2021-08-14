@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Assets/Omapp-App-Icon.svg';
+import Logo from '../Assets/Zenbase-App-Icon.svg';
 import GooglePlayLogo from '../Assets/Google-play.png';
 import AppleLogo from '../Assets/App-store.png';
 import MockUp from '../Assets/Home-Screen2.png';
@@ -28,7 +28,7 @@ export class LandingSlide1 extends React.Component {
           </div>
           <div className="landing1Content">
             <div className="omcoinLogoDiv">
-              <img src={Logo} alt="Omcoin Logo" />
+              <img src={Logo} alt="Zenbase-App-Icon.png" />
             </div>
             <div>
               <img id="googleLogo" src={GooglePlayLogo} alt="GooglePlay Logo" />

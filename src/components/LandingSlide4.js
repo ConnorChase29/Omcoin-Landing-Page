@@ -1,6 +1,6 @@
 import React from 'react';
 import MockUp from '../Assets/Mockups.svg';
-import Logo from '../Assets/Omcoin-icon.svg';
+import Logo from '../Assets/Zenbase-App-Icon.svg';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
@@ -96,11 +96,12 @@ export class LandingSlide4 extends React.Component {
         </div>
 
         <div>
-          <img src={Logo} alt="Omcoin logo" style={{ marginBottom: 15 }} />
+          <img src={Logo} alt="Omcoin logo" style={{ marginBottom: 15, maxHeight: 100 }} />
         </div>
         <h1
           className="whiteText OmcoinText TitleText"
           style={{
+            marginTop: 1,
             marginBottom: 10
           }}
         >
