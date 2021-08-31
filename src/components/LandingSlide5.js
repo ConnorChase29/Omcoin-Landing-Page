@@ -1,14 +1,14 @@
 import React from 'react';
 // import { Carousel } from 'react-bootstrap';
-import Roadmap from '../Assets/Card-4.svg';
-import Roadmap2 from '../Assets/Card-5.svg';
-import Roadmap3 from '../Assets/Card-6.svg';
-import Roadmap4 from '../Assets/Card-7.svg';
+import Roadmap from '../Assets3/Roadmap-card.svg';
+import Roadmap2 from '../Assets3/Roadmap-card-2.svg';
+import Roadmap3 from '../Assets3/Roadmap-card-3.svg';
+import Roadmap4 from '../Assets3/Roadmap-card-4.svg';
 // import Roadmap5 from '../Assets/Roadmap-card-5.png';
 import '../CSS/Features.css';
 import Aos from 'aos';
 
-export class LandingSlide5 extends React.Component<{}, {}> {
+export class LandingSlide5 extends React.Component {
   useEffect() {
     Aos.init( {duration: 2000});
   }

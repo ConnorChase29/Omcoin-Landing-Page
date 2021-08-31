@@ -1,16 +1,16 @@
 import React from 'react';
 import '../CSS/Features.css';
 
-export class LandingSlide2 extends React.Component<{}, {}> {
+export class LandingSlide2 extends React.Component {
   render() {
     return (<div>
       <div id="Overview" className="Landing2">
         <div className="TextPadding">
           <div className="Slide3Text">
             <h1 className="TitleText">
-              <span className="blueText">First</span> meditation app with
+              <span className="purpleText">First</span> meditation app with
               <br />
-              <span className="blueText"> crypto incentives.</span>
+              <span className="purpleText"> crypto incentives.</span>
             </h1>
           </div>
         </div>

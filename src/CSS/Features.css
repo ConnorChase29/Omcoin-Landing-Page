@@ -5,14 +5,15 @@ iframe {
 /*
   * Landing Slide1 css
 */
-.omcoinLogoDiv /* Google Play */ {
-  margin-top: 100px;
-  margin-bottom: 45px;
+
+.omcoinLogoDiv /* Google Play */ 
+{
+  margin-top: 10px;
+  margin-bottom: 25px;
 
 }
-
 .omcoinLogoDiv img {
-  max-width: 100px;
+  max-width: 20px;
   
 }
 
@@ -390,8 +391,8 @@ input:-webkit-autofill:active {
     display: none;
   }
 }
-.blueText {
-  color: #0078ff;
+.purpleText {
+  color: #6B26FF;
 }
 .lightBlue {
   color: #00d0ff;

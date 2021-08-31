@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Carousel } from 'react-bootstrap';
-import Feature1 from '../Assets/Group_88.svg';
-import Feature2 from '../Assets/Feature-card-2.svg';
-import Feature3 from '../Assets/Feature-card-3.svg';
+import Feature1 from '../Assets3/Card-1.svg';
+import Feature2 from '../Assets3/Card-2.svg';
+import Feature3 from '../Assets3/Card-3.svg';
 //import './CSS/Features.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -18,7 +18,7 @@ export class LandingSlide3 extends React.Component {
         }}>
         <h1 className="TitleText">Earning crypto is
           <br/> this
-          <span className="blueText"> easy.</span>
+          <span className="purpleText"> easy.</span>
         </h1>
       </div>
       <div className="responsiveImage">

@@ -1,5 +1,5 @@
 import React from 'react';
-import MockUp from '../Assets/Mockups.svg';
+import MockUp from '../Assets3/Two-Phones.svg';
 import Logo from '../Assets/Zenbase-App-Icon.svg';
 import Button from 'react-bootstrap/Button';
 import { InputGroup, FormControl } from 'react-bootstrap';
@@ -96,26 +96,25 @@ export class LandingSlide4 extends React.Component {
         </div>
 
         <div>
-          <img src={Logo} alt="Omcoin logo" style={{ marginBottom: 15, maxHeight: 100 }} />
+          <img src={Logo} alt="Zenbase logo" style={{ marginBottom: 15, maxHeight: 100 }} />
         </div>
         <h1
           className="whiteText OmcoinText TitleText"
           style={{
             marginTop: 1,
-            marginBottom: 10
+            marginBottom: 10,
           }}
         >
-          Zenbase
+          Partners
         </h1>
-        <div className="PurchaseText">
-          <h2 className="whiteText">Discover how we are uprooting paid
-              subscriptions.</h2>
-        </div>
+       
+       
         <div className="AvailableText">
           <p className="greyText">
-            Read our white paper
+           
           </p>
         </div>
+        { /*
         <Button
           variant="outline-primary"
           onClick={() => {
@@ -123,7 +122,9 @@ export class LandingSlide4 extends React.Component {
           }}
         >
           White Paper
-        </Button>
+          
+        </Button> */
+        }
       </div>
     );
   }
